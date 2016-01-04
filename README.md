@@ -133,6 +133,6 @@ employee.sayName();
 ### new Keyword
 
 "new" keyword in this statement 'var person2 = new Person("Anandh");' does 3 things in Javascript
-1. It allocates memory for the instance person2.
-2. It then calls the method Person.call(person2,"Arun");
-3. assign person2.__proto__ = Person.prototype
+- It allocates memory for the instance person2.
+- It then calls the method Person.call(person2,"Arun");
+- assign person2.__proto__ = Person.prototype
